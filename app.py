@@ -130,7 +130,7 @@ def main():
         elif choice == '5':
             result = mysql_stress_test()
         elif choice == '6':
-            print("Exiting the program.")
+            print("Exiting the program!!!!!.")
             break
         else:
             print("Invalid choice.")
