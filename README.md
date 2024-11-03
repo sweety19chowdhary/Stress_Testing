@@ -74,8 +74,8 @@ Before you begin, ensure you have met the following requirements:
 ## Dockerization
 - The application can be containerized using the provided Dockerfile.
 - To build and run the Docker image, use the following commands:
-    docker build -t stress-app .
-    docker run -it stress-app
+    - docker build -t stress-app .
+    - docker run -it stress-app
 - You can also find the containerized application on my Docker Hub account https://hub.docker.com/r/sannapavithra/stress-app-testingggg
 
 ## Logging and Monitoring
