@@ -24,7 +24,7 @@ def analyze_logs(log_content):
     }
 
     headers = {
-        "x-rapidapi-key": "20bdd2322dmsh291f21479727785p138e14jsn7c717b7375f2",  # Directly included API key
+        "x-rapidapi-key": "",  # Directly included API key
         "x-rapidapi-host": "cheapest-gpt-4-turbo-gpt-4-vision-chatgpt-openai-ai-api.p.rapidapi.com",
         "Content-Type": "application/json"
     }
