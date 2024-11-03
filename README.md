@@ -59,14 +59,14 @@ Before you begin, ensure you have met the following requirements:
 - To send suggestions to WhatsApp, run: - python send_to_whatsapp.py
 
 ## Components
-**app.py**: The main application script that conducts stress tests and logs the results.
-**ai_suggestions.py**: A script that analyzes the logs and fetches suggestions from an AI service.
-**send_to_whatsapp.py**: Sends suggestions via WhatsApp using the Twilio API.
-**Dockerfile**: Defines the Docker image for the application.
-**requirements.txt**: Lists the required Python packages for the application.
-**Jenkinsfile**: Configures the CI/CD pipeline in Jenkins to automate builds on code changes.
-**stress_test.log**: Log file containing results of the stress tests.
-**suggestions.txt**: File storing suggestions generated from the stress test analysis.
+- **app.py**: The main application script that conducts stress tests and logs the results.
+- **ai_suggestions.py**: A script that analyzes the logs and fetches suggestions from an AI service.
+- **send_to_whatsapp.py**: Sends suggestions via WhatsApp using the Twilio API.
+- **Dockerfile**: Defines the Docker image for the application.
+- **requirements.txt**: Lists the required Python packages for the application.
+- **Jenkinsfile**: Configures the CI/CD pipeline in Jenkins to automate builds on code changes.
+- **stress_test.log**: Log file containing results of the stress tests.
+- **suggestions.txt**: File storing suggestions generated from the stress test analysis.
 
 ## Continuous Integration
 - The project uses Jenkins for CI/CD. A Jenkins pipeline is defined in the Jenkinsfile, which triggers builds on every push to the GitHub repository.
